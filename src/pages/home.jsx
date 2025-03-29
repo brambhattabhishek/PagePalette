@@ -295,8 +295,8 @@ const Home = () => {
                 <a href="#">
                   <img className="rounded-t-lg" src={url} alt="Wait for 5 min before sending another request or change api or contact Gaurav" />
                 </a>
-                <button className="absolute text-red-600 text-3xl right-6 top-2" onClick={() => deleteImage(url)}>
-                  X
+                <button className="absolute text-red-600 text-3xl right-6 top-3" onClick={() => deleteImage(url)}>
+                  <img src={close} height="24px" width="24px" />
                 </button>
                 <div class="p-5 max-h-48 overflow-y-auto ">
                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
